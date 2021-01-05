@@ -10,6 +10,7 @@ class index:
         c = a + b
         print(c)
         return "Your answer is: "+ str(c)
+        # http://<addr>:<port>/?a=3&b=4
 
 if __name__ == "__main__":
     app = web.application(urls, globals())
