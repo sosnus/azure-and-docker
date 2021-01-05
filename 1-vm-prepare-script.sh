@@ -3,6 +3,9 @@
 # Instalacja dockera
 sudo snap install docker
 
+# Instalacja Lazydocker
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+
 ### Firewall na Azure
 ###Settings -> Networking (dodać potrzebne porty)
 

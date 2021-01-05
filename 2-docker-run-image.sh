@@ -8,16 +8,16 @@ sudo docker pull nginx
 sudo docker images
 
 # uruchamiamy obraz Nginxa
-sudo docker run -p 80:80 nginx
+sudo docker run -p 8080:80 nginx
 
 # uruchamiamy obraz Nginxa z dodatkowymi flagami
-sudo docker run -p 80:80 --name mojserwernginx nginx:alpine
+sudo docker run -p 8080:80 --name mojserwernginx nginx:alpine
 ## -p 80:80 # przekierowujemy port kontenera na port maszyny <gospodarz>:<kontener>
 ## --name mojserwernginx # dodajemy nazwę kontenera (zamiast losowej)
 ## :alpine # nazwa tagu
 
 # uruchamiamy obraz Nginxa z dodatkowymi flagami NA STAŁE
-sudo docker run -p 80:80 -d --restart=always --name mojserwernginx nginx:alpine
+sudo docker run -p 8080:80 -d --restart=always --name mojserwernginx nginx:alpine
 ## -d # detached - uruchomienie w tle
 ## --restart=always # nakazujemy restart maszyny za kadym razem (restart maszyny gospodarza, błąd wewnątrz aplikacji, itp.)
 

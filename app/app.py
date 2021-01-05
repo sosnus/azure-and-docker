@@ -9,7 +9,7 @@ class index:
         b = int(data.b)
         c = a + b
         print(c)
-        return "Your answer is: "+ str(c)
+        return "Twoja odpowiedz to: "+ str(c)
         # http://<addr>:<port>/?a=3&b=4
 
 if __name__ == "__main__":
