@@ -1,4 +1,10 @@
-# Sprawdzamy czy docker dizała (w konsoli powinna pojawić się informacja "Hello from Docker!")
+############ INSTALACJA DOCKERA ############
+#                                          #
+#   https://docs.docker.com/get-docker/    #
+#                                          #
+############################################
+
+# Sprawdzamy czy docker działa (w konsoli powinna pojawić się informacja "Hello from Docker!")
 sudo docker run hello-world
 
 # pobieramy obraz

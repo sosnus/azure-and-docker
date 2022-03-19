@@ -15,6 +15,8 @@
 # stworzyć plik dockerfile
 ## (Dockerfile)
 
+# TESTUJEMY PROJEKT LOKALNIE
+python3 app.py
 
 # BUDUJEMY PROJEKT
 # UWAGA! aby projekt się zbudował, musimy być wewnątrz projektu (w naszym przypadku w katalogu /app)
