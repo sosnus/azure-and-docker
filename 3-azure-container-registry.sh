@@ -7,11 +7,11 @@
 # skopiować login i hasło
 
 # 2. dodać repozytorium do dockera lokalnie
-sudo docker login <lowcy.azurecr.io>
+sudo docker login <wdi2022.azurecr.io>
 ### podać loin i hasło
 
 # 3. zbudować obraz z odpowienim tagiem
-sudo docker build -t <registry>.azurecr.io/<nazwa-repo:tag>
+sudo docker build -t <registry>.azurecr.io/<nazwa-repo:tag> .
 
 # 4. docker push
 sudo docker push <registry>.azurecr.io/<nazwa-repo:tag>

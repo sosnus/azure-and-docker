@@ -20,9 +20,9 @@ python3 app.py
 
 # BUDUJEMY PROJEKT
 # UWAGA! aby projekt się zbudował, musimy być wewnątrz projektu (w naszym przypadku w katalogu /app)
-sudo docker build -t calc-lowcy .
+sudo docker build -t calc-wdi .
 # -t lowcy-calc # tag, nazwa naszego obrazu aplikacji (image)
 
 # URUCHAMIAMY PROJEKT
-sudo docker run -d -p 8080:8080 --name lowcy-calc-image calc-lowcy
+sudo docker run -d -p 8080:8080 --name wdi-calc-image calc-wdi
 # --name lowcy-calc-image # nazwa naszego kontenera (container)
