@@ -22,7 +22,7 @@ docker push ?????.container-registry.ovh.net/wt-project/yourname
 
 ```
 
-## Run (on target machine Engicam SMARC)
+## Run (on target machine)
 ``` bash
 # 1
 docker login ?????.container-registry.ovh.net
